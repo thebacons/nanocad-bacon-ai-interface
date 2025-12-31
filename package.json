@@ -1,0 +1,39 @@
+{
+  "name": "nanocad-bacon-ai-interface",
+  "version": "1.0.0",
+  "description": "NanoCAD automation interface for Claude AI - includes CLI tool and MCP server",
+  "main": "src/server.js",
+  "bin": {
+    "nanocad": "./src/cad_exec.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node src/cad_exec.js Info",
+    "help": "node src/cad_exec.js"
+  },
+  "keywords": [
+    "nanocad",
+    "cad",
+    "automation",
+    "mcp",
+    "claude",
+    "ai",
+    "com",
+    "activex"
+  ],
+  "author": "BACON-AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebacon-ai/nanocad-bacon-ai-interface.git"
+  },
+  "dependencies": {
+    "winax": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32"
+  ]
+}
