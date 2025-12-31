@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thebacon-ai/nanocad-bacon-ai-interface.git"
+    "url": "https://github.com/thebacons/nanocad-bacon-ai-interface.git"
   },
   "dependencies": {
     "winax": "^3.3.2"

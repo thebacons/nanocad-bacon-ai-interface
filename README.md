@@ -22,7 +22,7 @@ Both methods use the Windows COM/ActiveX API to communicate with NanoCAD.
 
 ```bash
 # Clone the repository
-git clone https://github.com/thebacon-ai/nanocad-bacon-ai-interface.git
+git clone https://github.com/thebacons/nanocad-bacon-ai-interface.git
 cd nanocad-bacon-ai-interface
 
 # Install dependencies (from Windows)
